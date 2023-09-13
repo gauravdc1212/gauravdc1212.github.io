@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: center;
+            height: 7vh;
+            padding: 1rem 2rem;
+            background-color: rgb(121, 40, 3);
+        }
+        .navbar ul li{
+            display:inline-block;
+            margin: 0.4rem;
+        }
+        .navbar ul li a{
+            font-size: 30px;
+            margin: 0.4rem 0;
+            padding: 0.6rem o.6rem;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .navbar ul li a:hover{
+            margin: 0 18px;
+            padding: 8px;
+            font-weight: 400;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            background-color: aquamarine;
+            font-size: x-large;
+            border-radius: 10rem;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .left {
+            background-color: black;
+            width: 20%;
+            height: 100vh;
+            display: inline-block;
+        }
+
+        .right {
+            background-color: aqua;
+            width: 80%;
+            display: inline-block;
+            padding: 30px;
+            /* height: ; */
+            /* padding: 50px; */
+        }
+
+        #profilepic {
+            display: block;
+            margin: auto;
+            width: 100%;
+            height: 55vh;
+
+        }
+        .top{
+            display: flex;
+            width: auto;
+            justify-content: center;
+            background-color: rgb(215, 255, 242);
+        }
+        
+        #id{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        button{
+            justify-content: center;
+        }
+        .bt2{
+            display: block;
+            margin: 0px auto;
+            font-family: monospace;
+            background-color:aqua;
+            padding: 3px 3px;
+            border: 3px solid black;
+            font-size: 21px;
+            border-radius:4px;
+            text-decoration: none;
+            color: black;
+        }
+        #details{
+            top: 330px;
+        }
+        h2{
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 2.2rem;
+            text-decoration: underline;
+        }
+        span{
+            font-size: larger;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+        div ol li{
+            padding: 0.5rem 0.5rem;
+            font-size: larger;
+            font-family: serif;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Career Objective</a></li>
+            <li><a href="#">Educational Qualification</a></li>
+            <li><a href="#">Contact me</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="top">
+            <div class="left">
+                <div id="profilephoto">
+                    <img id="profilepic" src="/photo.jpg" alt="my photo" width="100%">
+                </div><div id="details">
+                    <button class="bt2"><strong></strong>Gaurav Singh Rajput</button><br>
+
+                    <button class="bt2"><strong><img src="/mobile logo.jpg" alt="Mobile Number"
+                                width="30px">:</strong>9058210644</button><br>
+                    <button class="bt2"><strong><img src="/linked.png" width="30px" alt="Linked In">:</strong><a
+                            href="https://www.linkedin.com/in/gaurav-kumar-singh-398918288"
+                            target="_blank"><u>Profile</u></a>
+                    </button>
+                    <br>
+                    <button class="bt2"><strong><img src="/Github logo.png" alt="Github" width="30px">:</strong><a
+                            href="https://github.com/gauravdc1212" target="_blank"><u>Profile</u></a>
+                    </button>
+                    <br>
+                    <button class="bt2"><strong><img src="/Gmail logo.png" alt="gmail" width="30px">:</strong><a
+                            href="gaurav676590@gmail.com" target="_blank"><u>Profile</u></a>
+                    </button><br>
+
+
+                </div>
+
+
+            </div><div class="right">
+                <h2><strong>About:</strong></h2>
+                <span>My name is Gaurav singh Rajput. I belong to a Place called Dhampur in district-Bijnor. Recentli I
+                    am pursuing my MCA from KIET group of instituion.</span>
+                <br><br>
+                <h2><strong>Career Objective:</strong></h2>
+                <span>I am very anthusiastic, dynamical, organized and a dedicated person. I am having an experience of
+                    crossw cultural fields of Mathmatics and Computer-Science. Currently I am associated with KIET group
+                    of institution and pursuing Masters in Computer Application. I would like apply knowledge and
+                    experience of Mathematics into the field of Computer-Science</span>
+                <br><br>
+                <h2><strong>Education Qualification:</strong> </h2>
+                <ol type="A">
+                    <li>Master in Computer application: I am recently pursuing my Master program from KIET group of
+                        institutions Ghaziabad.</li>
+                    <li>Bachelor of Science (hons) in Mathematics :<br>I have done my graduation from RSM degree College
+                        Dhampur
+                        with a Percentage of 67% </li>
+                    <li>12th standard :<br> From Shikhar School Dhampur in 2020 with 78%</li>
+                    <li>10th standard :<br> From Shikhar School Dhampur in 2018 with 75% </li>
+                </ol>
+                <br>
+                <h2 style="text-align: left;"><strong>Skills:</strong></h2>
+                <ol type="a">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Problem solving</li>
+                    <li>Interaction skills</li>
+                    <li>Writing skills</li>
+                    <li>Team work</li>
+                    <li>Time management</li>
+                </ol>
+                <h2 style="text-align: left;"><strong>Projects:</strong></h2>
+                <li>NONE</li>
+                <h2 style="text-align: left;"><strong>Hobees : </strong></h2>
+            <ol type="I">
+                <li>Basket ball</li>
+                <li>Badminton</li>
+                <li>Playing congo</li>
+            </ol>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
